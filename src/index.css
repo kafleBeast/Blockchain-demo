@@ -1,0 +1,331 @@
+/*All Pages*/
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+/*Navbar*/
+
+.navbar {
+  padding: 20px;
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #7f2fc0;
+}
+
+
+.navbar .links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-top: -50px;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+  background-color: #7f2fc0;
+  border-radius: 8px;
+}
+.navbar a:hover {
+  background: #ff375a;
+}
+
+
+.navbar .title {
+  color: #9236dd;
+  margin-top: -15px;
+  font-size: 150%;
+
+}
+/********************************************************************************************************/
+
+
+/*App Page*/
+
+.content {
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+}  
+
+
+
+/********************************************************************************************************/
+
+
+/*LandingPage Page*/
+
+.LandingPage{
+  max-width: 75%;
+  padding: 20px;
+  margin: -50px auto;
+
+}
+
+.LandingPage h1{
+  color: #FF5E5E;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.LandingPage-content{
+  margin: auto;
+  
+}
+
+.LandingPage .outline{
+  display: block;
+  margin-bottom: 10%;
+}
+
+.LandingPage .outline li{
+  margin-left: 5%;
+  font-size: 150%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.LandingPage .team-members, .instructor{
+  display: flex;
+  margin-top: 50px;
+
+}
+
+.LandingPage .tables{
+  display: block;
+}
+
+.LandingPage .instructor{
+  margin-top: 50px;
+}
+
+.LandingPage .headers{
+  font-size: 200%;
+  display: flex;
+}
+.LandingPage table{
+  text-decoration: none;
+  box-sizing: border-box;
+
+  /* margin-left: 5%; */
+  display: flexbox;
+  justify-content: center;
+  height: 20px;
+}
+
+.LandingPage th {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #d83e26;
+  font-size: 120%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/********************************************************************************************************/
+
+/* Hash Page */
+
+.Hash{
+  max-width: 80%;
+  padding: 20px;
+  margin: auto;
+  margin-top: -50px;
+
+}
+
+.Hash h1{
+  color: #FF5E5E;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Hash label{
+  font-size: 150%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.Hash input, textarea{
+  display: flex;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.Hash input{
+  height: 3em;
+}
+
+
+/********************************************************************************************************/
+
+/* Proof of Work */
+
+
+.Pow{
+  max-width: 60%;
+  padding: 20px;
+  margin: auto;
+  margin-top: -50px;
+}
+
+.Pow h1{
+  color: #FF5E5E;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Pow label{
+  font-size: 120%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.Pow input, textarea, select{
+  display: flex;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.Pow .difficulty {
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.Pow button{
+  background-color: #8cbcf2;
+  margin: -9px 10px -20px 10px;
+}
+
+/********************************************************************************************************/
+
+/* Blocks */
+
+.Blocks{
+  max-width: 80%;
+  padding: 20px;
+  margin: auto;
+  margin-top: -50px;
+}
+
+.Blocks h1{
+  color: #FF5E5E;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Blocks h3{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.Blocks .difficulty{
+  display: flex;
+  justify-content: center;
+}
+
+.Blocks .difficulty select{
+  text-align: center;
+}
+
+.Blocks .difficulty label{
+  font-size: 120%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.Blocks .difficulty input, select{
+  display: blocks;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.Blocks .difficulty .diffButton{
+  display: flex;
+  justify-content: center;
+}
+
+.Blocks .difficulty .diffButton button{
+  padding: 2px;
+  width: 10%;
+  margin: auto;
+  border: 1px solid;
+}
+
+.Blocks .blockchain{
+  /* display:flex; */
+  /* align-items: center; */
+  width: 150%;
+  /* height: 50%; */
+  /* margin: auto; */
+  margin-left: -8%;
+}
+
+.Blocks .blockchain label{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.Blocks .block-elements{
+  /* min-width: 500px; */
+  /* height: 400px; */
+  /* display: flex; */
+  float:left;
+  margin: 30px;
+  background-color: #b1e4b0;
+  
+}
+
+.Blocks input, textarea, select{
+  display: flex;
+  /* display: block; */
+  /* justify-content: center; */
+  /* float: left; */
+  width: 100%;
+  padding: 6px 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+}
+
+.Blocks .mine{
+  background-color: #8cbcf2;
+  padding: 7px 16px;
+  text-align: center;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  display: flex;
+}
+
+.Blocks .blockchain #No{
+  background-color: #fb637c;
+}
