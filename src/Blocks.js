@@ -84,8 +84,8 @@ const Blocks = () =>{
                             value={difficulty}
                             readOnly
                         />
-                        <button onClick={()=>setDifficulty(difficulty+1)}>+</button>
-                        <button onClick={()=>setDifficulty(difficulty-1)}>-</button>
+                        <button onClick={()=>difficulty <3 && setDifficulty(difficulty+1)}>+</button>
+                        <button onClick={()=>difficulty >1 && setDifficulty(difficulty-1)}>-</button>
                     </div>
                     
                 </form>

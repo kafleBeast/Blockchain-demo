@@ -40,9 +40,9 @@ const Pow = () =>{
                 /> 
                 <div className="difficulty">
 
-                    <button onClick={()=>setDifficulty(difficulty+1)}>Increase +</button>
+                    <button onClick={()=>difficulty<4&&setDifficulty(difficulty+1)}>Increase +</button>
 
-                    <button onClick={()=>setDifficulty(difficulty-1)}>Decrease -</button>
+                    <button onClick={()=>difficulty>1&&setDifficulty(difficulty-1)}>Decrease -</button>
                 </div>
                 
                 
