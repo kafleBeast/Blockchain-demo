@@ -330,6 +330,9 @@
   display: flex;
 }
 
+.Blocks .mine:hover{
+  background-color: #81ff5e;
+}
 .Blocks .blockchain #No{
   background-color: #fb637c;
 }
