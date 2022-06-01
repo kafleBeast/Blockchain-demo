@@ -8,8 +8,8 @@ const LandingPage = () => {
     })
     return ( 
         <div className="LandingPage">
-            <h1>Simple Blockchain Demo</h1>
             <div className="LandingPage-content">
+                <h1>Simple Blockchain Demo</h1>
 
                 <div className="outline">
                     <p className="headers">Contents:</p>
