@@ -27,7 +27,7 @@ const Blocks = () =>{
     for(let i=0;i<6;i++){
         hash.push(SHA256(allData[i]).toString());
     }
-    let prevHash1 = '000';
+    let prevHash1 = Array(64 + 1).join("0").toString();
     const[prevHash2, setPrevHash2] = useState('');
     const[prevHash3, setPrevHash3] = useState('');
     const[prevHash4, setPrevHash4] = useState('');
